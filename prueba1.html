@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Primer Mes, Liset ♡</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="mute-control" class="mute-floating">
+        <span id="mute-icon">🔊</span>
+    </div>
+
+    <div id="pantalla-inicio">
+        <div id="lluvia-romantica"></div>
+
+        <div class="contenido-inicio">
+            <div class="imagen-flotante-wrapper">
+                <img src="imagen2.jpg" alt="Nosotros" class="imagen-movimiento">
+            </div>
+            
+            <p class="texto-romantico">¿Recuerdas lo que sucedio hace 1 mes? ❤️<br>Un pequeño detalle para ti, en este dia especial como todos los dias a tu lado se sienten.</p>
+            <p class="texto-romantico">Click en la imagen para escuchar una melodia</p>
+            
+            
+            <button id="btn-cerrar-inicio">Entrar ❤️</button>
+        </div>
+
+        <audio id="cancion1" loop>
+            <source src="cancion1.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="container">
+        <h1>Feliz Primer Mes, Liset ♡</h1>
+        <p class="date">7 DE ABRIL - EL INICIO DE NUESTRA HISTORIA</p>
+
+        <div class="gallery">
+            <div class="photo-wrapper" id="foto-sorpresa">
+                <img src="imagen.jpeg" alt="Nuestro camino juntos" class="photo">
+                <div class="instruccion-click" id="texto-instruccion">
+                    ✨ Toca la foto para abrir tu sorpresa ✨
+                </div>
+            </div>
+        </div>
+
+        <div class="contenido-revelado" id="seccion-mensaje">
+            <div class="message-box">
+                <div class="heart">❤</div>
+                <p><strong>Para mi hermosa Liseth,</strong></p>
+                <p>Hoy cumplimos nuestro primer mes oficial y no quería dejarlo pasar sin recordarte lo especial que fue aquel 7 de abril. Al mirar atrás, pienso en todo lo que hemos vivido en este corto tiempo: los momentos hermosos y también los difíciles. Sé que todo es parte de nuestra historia, y que siempre surgen piedras en el camino cuando se quiere construir algo en serio.</p>
+                <p>Esta es la única foto que tengo en la que aparecemos juntos, y también de las pocas que tengo de ti. Te soy sincero, me encantaría tener muchísimas más para poder seguir preparándote este tipo de detalles.</p>
+                <p>Guau... solo veo esta imagen, contemplo tu rostro, recuerdo todo lo que he ido conociendo de ti y es imposible no sonreír. Es una felicidad que no tiene explicación; a veces cuesta entender cómo alguien puede volverse tan especial que con solo verla, recordarla o pensarla, te cambia el día. Cierro los ojos, te veo ahí, y simplemente me haces feliz.</p>
+                <p>Aún sigo buscando las palabras más geniales para expresarte todo lo que siento, pero por ahora, quédate con esto: te amo, y quiero abrazarte y besarte el resto de mi vida.</p>    
+    <div class="heart">❤</div>
+</div>
+
+            <div class="music-player-wrapper">
+                <div class="music-player-content">
+                    <p class="music-title">Una Canción Especial 🎵</p>
+                    <button class="play-btn" id="playMusic">
+                        <span id="play-icon">▶</span> Reproducir
+                    </button>
+                    
+                    <audio id="bgMusic" loop>
+                        <source src="cancion2.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
